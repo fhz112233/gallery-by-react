@@ -1,0 +1,63 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'D:\\nodejs\\node.exe',
+1 verbose cli   'D:\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   'scss-loader-webpack-loader',
+1 verbose cli   '--save-dev' ]
+2 info using npm@2.0.0
+3 info using node@v4.4.7
+4 warn package.json karma-phantomjs-launcher@0.1.4 No README data
+5 verbose readDependencies using package.json deps
+6 verbose cache add [ 'scss-loader-webpack-loader', null ]
+7 verbose cache add spec="scss-loader-webpack-loader" args=["scss-loader-webpack-loader",null]
+8 verbose parsed spec Result {
+8 verbose parsed spec   raw: 'scss-loader-webpack-loader',
+8 verbose parsed spec   scope: null,
+8 verbose parsed spec   name: 'scss-loader-webpack-loader',
+8 verbose parsed spec   rawSpec: '',
+8 verbose parsed spec   spec: '*',
+8 verbose parsed spec   type: 'range' }
+9 verbose parsed spec Result {
+9 verbose parsed spec   raw: 'scss-loader-webpack-loader',
+9 verbose parsed spec   scope: null,
+9 verbose parsed spec   name: 'scss-loader-webpack-loader',
+9 verbose parsed spec   rawSpec: '',
+9 verbose parsed spec   spec: '*',
+9 verbose parsed spec   type: 'range' }
+10 verbose addNamed [ 'scss-loader-webpack-loader', '*' ]
+11 verbose addNamed [ null, '*' ]
+12 silly lockFile 57437611-scss-loader-webpack-loader scss-loader-webpack-loader@*
+13 verbose lock scss-loader-webpack-loader@* C:\Users\Administrator\AppData\Roaming\npm-cache\57437611-scss-loader-webpack-loader.lock
+14 silly addNameRange { name: 'scss-loader-webpack-loader',
+14 silly addNameRange   range: '*',
+14 silly addNameRange   hasData: false }
+15 verbose mapToRegistry name scss-loader-webpack-loader
+16 verbose mapToRegistry uri http://r.cnpmjs.org/scss-loader-webpack-loader
+17 silly lockFile 57437611-scss-loader-webpack-loader scss-loader-webpack-loader@*
+18 silly lockFile 57437611-scss-loader-webpack-loader scss-loader-webpack-loader@*
+19 verbose stack Error: 404 Not Found: scss-loader-webpack-loader
+19 verbose stack     at RegClient.<anonymous> (D:\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:259:14)
+19 verbose stack     at D:\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:203:7
+19 verbose stack     at Gunzip.onEnd (zlib.js:227:5)
+19 verbose stack     at emitNone (events.js:72:20)
+19 verbose stack     at Gunzip.emit (events.js:166:7)
+19 verbose stack     at endReadableNT (_stream_readable.js:921:12)
+19 verbose stack     at nextTickCallbackWith2Args (node.js:442:9)
+19 verbose stack     at process._tickCallback (node.js:356:17)
+20 verbose statusCode 404
+21 verbose pkgid scss-loader-webpack-loader
+22 verbose cwd D:\practise\gallery-by-react
+23 error Windows_NT 10.0.10586
+24 error argv "D:\\nodejs\\node.exe" "D:\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "scss-loader-webpack-loader" "--save-dev"
+25 error node v4.4.7
+26 error npm  v2.0.0
+27 error code E404
+28 error 404 Not Found: scss-loader-webpack-loader
+28 error 404
+28 error 404 'scss-loader-webpack-loader' is not in the npm registry.
+28 error 404 You should bug the author to publish it (or use the name yourself!)
+28 error 404 It was specified as a dependency of 'gallerybyreact'
+28 error 404
+28 error 404 Note that you can also install from a
+28 error 404 tarball, folder, http url, or git url.
+29 verbose exit [ 1, true ]
